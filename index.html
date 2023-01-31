@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="site_mobile">
+        <div class="site_mobile_close">
+            <div class="menu_close">
+                <span class="icon_menu_close"><i id="close_menu" class="fa-solid fa-xmark"></i></span>
+            </div>
+        </div>
+        <div class="site_mobile_menu">
+            <ul class="nav_mobile_menu">
+                <li><a class="nav_link active" href="#">Home</a></li>
+                <li><a class="nav_link" href="#work_section">Work</a></li>
+                <li><a class="nav_link" href="#service-section">Service</a></li>
+                <li class="has_children">
+                    <a class="nav_link" href="#about-section">About<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul id="sub_menu_mobile">
+                        <li><a href="#about-section" >Specialties</a></li>
+                        <li><a href="#team-section" >Our Team</a></li>
+                    </ul>
+                </li>
+                <li><a href="#blog-section" class="nav_link">Blog</a></li>
+                <li><a href="#contact-section" class="nav_link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="top_header">
+        <div class="top_header_container">
+            <div class="top_header_left">
+                <div class="top_header_phone">
+                    <span class="top_header_text">Phone:</span>
+                    <span><a href="tel://#" class="phone">+216 23 456 789</a></span>
+                </div>
+                <div class="top_header_email">
+                    <span class="top_header_text">Email:</span>
+                    <span> <a href="mailto:my_email@gmail.com" class="mail"> my_email@gmail.com </a></span>
+                </div>    
+            </div>
+            <div class="top_header_right">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/frontend709/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="header">
+        <div class="header_container">
+            <div class="header_logo">
+                <h1>My Web<span>Site</span> </h1>
+            </div>
+            <ul class="header_menu" id="menu">
+                <li><a id="home" class="nav_link active" href="#">Home</a></li>
+                <li><a id="work" class="nav_link" href="#work_section">Work</a></li>
+                <li><a id="service" class="nav_link" href="#service-section">Service</a></li>
+                <li class="has_children">
+                    <a id="about" class="nav_link" href="#about-section">About<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul id="sub_menu">
+                        <li><a href="#about-section" class="nav_link about1" >Specialties</a></li>
+                        <li><a href="#team-section" class="nav_link about1" >Our Team</a></li>
+                    </ul>
+                </li>
+                <li><a href="#blog-section" class="nav_link" id="blog">Blog</a></li>
+                <li><a href="#contact-section" class="nav_link" id="contact">Contact</a></li>
+            </ul>
+            <i id="responsive_menu" class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="cover"></div>
+        <div class="banner_container">
+            <h2>We Love To Build Web Apps</h2>
+            <p>Free Web Template by <span>Colorlib</span></p>
+            <div>
+                <a href="#" class="btn_banner">Watch Video</a>
+            </div>   
+        </div>
+    </div>
+
+    <section class="site_section">
+        <div class="site_section_container">
+            <div class="box_with_number">
+                <div class="number_behind">01.</div>
+                <h3>Innovate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                <div class="parent">
+                    <div class="child">
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="child">
+                        <p>Customer Experience</p>
+                        <p>Product Management</p>
+                        <p>Proof of Concept</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box_with_number">
+                <div class="number_behind">02.</div>
+                <h3>Create</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                <div class="parent">
+                    <div class="child">
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="child">
+                        <p>Web Design</p>
+                        <p>Branding</p>
+                        <p>Web & App Development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box_with_number">
+                <div class="number_behind">03.</div>
+                <h3>Scale</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                <div class="parent">
+                    <div class="child">
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                        <p><i class="fa-solid fa-check"></i></p>
+                    </div>
+                    <div class="child">
+                        <p>Social Media</p>
+                        <p>Paid Campaigns</p>
+                        <p>Marketing & SEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="site_section" id="work_section">
+        <div class="work" >
+            <h3>Our Works</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
+        </div>
+        <div class="work_container">
+            <div class="work_img">
+                <div class="main-img">
+                    <div class="cover"></div>
+                    <img src="https://preview.colorlib.com/theme/create/images/img_1.jpg" alt="">
+                    <div class="scale" id="coll">
+                        <h2>Bonzai Tree</h2>
+                        <p>Web Applecation</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="work_img">
+                <div class="main-img">
+                    <div class="cover"></div>
+                    <img src="https://preview.colorlib.com/theme/create/images/img_2.jpg" alt="">
+                    <div class="scale">
+                        <h2>Simple Woman</h2>
+                        <p>Branding</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work_img">
+                <div class="main-img">
+                    <div class="cover"></div>
+                    <img src="	https://preview.colorlib.com/theme/create/images/img_3.jpg" alt="">
+                    <div class="scale">
+                        <h2>Fruits</h2>
+                        <p>Website</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work_img">
+                <div class="main-img">
+                    <div class="cover"></div>
+                    <img  src="https://preview.colorlib.com/theme/create/images/img_4.jpg" alt="">
+                    <div class="scale">
+                        <h2>Design Material</h2>
+                        <p>Web Applecation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work_img">
+                <div class="main-img">
+                    <div class="cover"></div>
+                    <img src="	https://preview.colorlib.com/theme/create/images/img_5.jpg" alt="">
+                    <div class="scale">
+                        <h2>Handy Food</h2>
+                        <p>Branding</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work_img">
+                <div class="main-img">
+                    <div class="cover"></div>
+                    <img src="	https://preview.colorlib.com/theme/create/images/img_6.jpg" alt="">
+                    <div class="scale">
+                        <h2>Cat With Cub</h2>
+                        <p>Website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services site_section" id="service-section">
+        <div class="hed">
+            <h2>Our Service</h2>
+        </div>
+        <div class="services_container">
+            <div class="services_unit">
+                <div class="unit_text">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                    <p> <a href="#">Learn More</a> </p>
+                </div>
+                <div class="unit_icon">
+                    <i class="fa-solid fa-laptop"></i>
+                </div>
+            </div>           
+            <div class="services_unit">
+                <div class="unit_text">
+                    <h3>eCommerce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                    <p> <a href="#">Learn More</a> </p>
+                </div>
+                <div class="unit_icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <div class="services_unit">
+                <div class="unit_text">
+                    <h3>Web Applications</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                    <p> <a href="#">Learn More</a> </p>
+                </div>
+                <div class="unit_icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+            </div>
+            <div class="services_unit">
+                <div class="unit_text">
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                    <p> <a href="#">Learn More</a> </p>
+                </div>
+                <div class="unit_icon">
+                    <i class="fa-solid fa-paint-roller"></i>
+                </div>
+            </div>
+            <div class="services_unit">
+                <div class="unit_text">
+                    <h3>Copy Writing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                    <p><a href="#">Learn More</a> </p>
+                </div>
+                <div class="unit_icon">
+                    <i class="fa-regular fa-object-ungroup"></i>
+                </div>
+            </div>
+            <div class="services_unit">
+                <div class="unit_text">
+                    <h3>Mobile Applications</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                    <p> <a href="#">Learn More</a> </p>
+                </div>
+                <div class="unit_icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <div class="about site_section" id="about-section">
+        <div class="about_container">
+            <div class="about_left">
+                <h2>About Us</h2>
+                <p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
+                <div class="about_sub_section">
+                    <div class="about_unit">
+                        <i class="fa-solid fa-laptop"></i>
+                        <h3>Web & Mobile Specialties</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="about_unit">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <h3>Intuitive Thinkers</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about_right">
+                <img src="https://preview.colorlib.com/theme/create/images/about_1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="team site_section" id="team-section">
+        <div class="team_heading">
+            <h2>Our Team</h2>
+        </div>
+        <div class="team_container">
+            <div class="team_person">
+                <img src="	https://preview.colorlib.com/theme/create/images/person_2.jpg" alt="">
+                <h3>John Rooster</h3>
+                <h4>CO-FOUNDER, PRESIDENT</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="team_person">
+                <img src="	https://preview.colorlib.com/theme/create/images/person_3.jpg" alt="">
+                <h3>Tom Sharp</h3>
+                <h4>CO-FOUNDER, COO</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="team_person">
+                <img src="https://preview.colorlib.com/theme/create/images/person_4.jpg" alt="">
+                <h3>Winston Hodson</h3>
+                <h4>MARKETING</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="blog site_section" id="blog-section">
+        <h2>Blog</h2>
+        <div class="blog_container">
+            <div class="img_blog">
+                <img src="	https://preview.colorlib.com/theme/create/images/img_1.jpg" alt="">
+                <h3 class="blog_title"> <a href="#" >Create Beautiful Website In Less Than An Hour</a> </h3> 
+                <div class="sub_title">
+                    <span>Ham Brook </span>    <span>.</span>     <span>Jan 18, 2019</span>    <span>.</span>  <a href="#"> News</a>
+                </div> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <a class="a"  href="#">Continue Reading...</a>
+            </div>
+            <div class="img_blog">
+                <img src="https://preview.colorlib.com/theme/create/images/img_2.jpg" alt="">
+                <h3 class="blog_title"> <a href="#" >Create Beautiful Website In Less Than An Hour</a> </h3> 
+                <div class="sub_title">   
+                    <span>James Phelps </span>    <span>.</span>     <span>Jan 18, 2019</span>    <span>.</span>  <a href="#"> News</a>
+                </div> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <a class="a"  href="#">Continue Reading...</a>
+            </div>
+            <div class="img_blog">
+                <img src="	https://preview.colorlib.com/theme/create/images/img_1.jpg" alt="">
+                <h3 class="blog_title"> <a href="#" >Create Beautiful Website In Less Than An Hour</a> </h3> 
+                <div class="sub_title">
+                    <span>James Phelps </span>    <span>.</span>     <span>Jan 18, 2019</span>    <span>.</span>  <a href="#"> News</a>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <a class="a" href="#">Continue Reading...</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact site_section" id="contact-section">
+        <div class="contact_heading">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact_container">
+            <div class="contact_form">
+                <form action="#" class="form">
+                    <h3>Contact Form</h3>
+                    <div class="contact_name">
+                        <div class="name bloc_info">
+                            <label class="text_name" for="fname">First Name</label>
+                            <input type="text" id="fname" class="zone_text" required>
+                        </div>
+                        <div class="name bloc_info">
+                            <label class="text_name" for="lname">Last Name</label>
+                            <input type="text" id="lname" class="zone_text" required>
+                        </div>
+                    </div>
+                    <div class="bloc_info">
+                        <label class="text_name" for="email">Email</label>
+                        <input type="email" id="email" class="zone_text" required title="Write your email">
+                    </div>
+                    <div class="bloc_info">
+                        <label class="text_name" for="subject">Subject</label>
+                        <input type="text" id="subject" class="zone_text" required>
+                    </div>
+                    <div class="bloc_info">
+                        <label class="text_name" for="message">Message</label>
+                        <textarea name="message" id="message" class="zone_text" cols="30" rows="7" placeholder="Write Your Notes Or Question Here..." required></textarea>
+                    </div>
+                   <div class="submit_bloc">
+                        <input class="send_btn" type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
+            <div class="contact_info">
+                <div class="informations">
+                    <h3>Address</h3>
+                    <p>203 Fake St. Mountain View, San Francisco, California, USA.</p>
+                    <h3>Phone</h3>
+                    <p >
+                        <a href="#">+1 232 3235 324</a>
+                    </p>
+                    <h3>Email Address</h3>
+                    <p >
+                        <a href="#">youremail@gmail.com </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer_bloc">
+                <div class="footer_left">
+                    <div class="footer_left_box">
+                        <div class="footer_left_part1">
+                            <h4 class="footer_title"> About Us</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.
+                            </p>
+                        </div>
+                        <div class="footer_left_part2">
+                            <h4 class="footer_title">Features</h4>
+                            <ul class="footer_list">
+                                <li> <a href="#">About Us</a> </li>
+                                <li> <a href="#">Services</a> </li>
+                                <li> <a href="#">Testimonials</a> </li>
+                                <li> <a href="#">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                        <div class="footer_left_part2">
+                            <h4 class="footer_title">Follow Us</h4>
+                            <a href="#" class="footer_social_media"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="footer_social_media"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="footer_social_media"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="footer_social_media"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    <h4 class="footer_title">Subscribe Newsletter</h4>
+                    <form action="#" method="post">
+                        <div class="form_submit">
+                            <input type="text" class="footer_email" placeholder="Enter your email">
+                            <div class="append_bloc">
+                                <button class="send_btn">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <p>
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with 
+                    <i class="fa fa-heart red"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
