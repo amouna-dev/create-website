@@ -1,8 +1,10 @@
 let blog = document.getElementById('sub_menu');
 let about = document.getElementById("about");
 let menu = document.getElementById('menu');
+let openBtn = document.getElementById('responsive_menu');
+let closeBtn = document.getElementById('closed');
 let links = document.getElementsByClassName('nav_link');
-
+let sideNav = document.getElementById('site_mobile');
 /*about.onmouseover = function (){
     blog.style.display = 'block';
 }
@@ -35,4 +37,16 @@ for (var i = 0; i < links.length; i++) {
         }
     
     });
+}
+
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+function openNav(){
+    sideNav.classList.add("actived");
+}
+
+function closeNav(){
+    console.log('close');
+    sideNav.className = "site_mobile";
 }
