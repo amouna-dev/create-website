@@ -5,24 +5,9 @@ let openBtn = document.getElementById('responsive_menu');
 let closeBtn = document.getElementById('closed');
 let links = document.getElementsByClassName('nav_link');
 let sideNav = document.getElementById('site_mobile');
-/*about.onmouseover = function (){
-    blog.style.display = 'block';
-}
-blog.onmouseover = function (){
-    blog.style.display = 'block';
-}
-blog.onmouseout = function () {
-    blog.style.display = 'none';
-}
 
-about.addEventListener('mouseover', function(){
-    blog.style.display = 'block';
-});
 
-blog.addEventListener('mouseleave', function(){
-    blog.style.display = 'none';
-});
-*/
+
 for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("click", function() {
         var current = document.getElementsByClassName("active");
@@ -47,6 +32,5 @@ function openNav(){
 }
 
 function closeNav(){
-    console.log('close');
     sideNav.className = "site_mobile";
 }
