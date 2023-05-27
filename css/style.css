@@ -140,7 +140,7 @@ body{
     border-top: 2px solid var(--blue-color);
     background: #fff;
     width: 200px;
-    display: none;
+    visibility: hidden;
     z-index: 10000;
 }
 .header #sub_menu li {
@@ -151,7 +151,7 @@ body{
     width: 100%;
 }
 .header li:hover #sub_menu{
-    display: block;
+    visibility: visible;
 }
 .header #sub_menu li a:hover, .header #sub_menu li:hover {
     background: #f4f5f9;
