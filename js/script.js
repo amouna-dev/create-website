@@ -16,7 +16,7 @@ for (var i = 0; i < links.length; i++) {
             current[0].className = "nav_link";
             about.className += " active";
         }else{
-            if(about.classList.contains('active'))  about.className.replace(" active", "");
+            if(about.classList.contains('active'))  about.className = "nav_link ";
             current[0].className = "nav_link";
             this.className += " active";
         }
